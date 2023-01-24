@@ -1,0 +1,101 @@
+/* Author:Aswathy P */
+h3,h1,h5,.blue{
+    color: rgb(9, 199, 174);
+}
+
+.container{
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    position:relative;   
+}
+
+.body{
+    display: flex;
+    margin-top: 40px;
+}
+
+li:first-child{
+    font-weight: bolder;
+}
+
+.start::first-letter{
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+aside p{
+    font-size: small;
+    font-weight: bolder;
+}
+
+.top{
+    background-color: yellow;
+    font-weight: bolder;
+    width: fit-content;
+    position: absolute;
+    right: 300px;
+}
+
+nav a{
+    text-decoration: none;
+    color: rgb(9, 199, 174);;
+}
+
+.header{
+    background-color: rgba(206, 219, 217, 0.664);
+    padding: 10px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rel{
+    display: inline;
+    color: rgb(9, 199, 174);
+}
+
+.related{
+    border-top: 5px solid rgb(9, 199, 174);
+    border-bottom: 5px solid rgb(9, 199, 174);
+    padding: 20px;
+    width: 500px;
+    background-color: rgba(206, 219, 217, 0.664);
+    flex-direction: column;
+    align-self: flex-start;
+}
+
+.lady{
+    width: 30px;
+}
+
+.post{
+    display: inline;
+    
+}
+
+.related img{
+    width: 70px;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-top:rgb(9, 199, 174);
+    position: relative;
+}
+
+.imgcod1{
+    width: 600px;
+}
+
+footer{
+    font-size: small;
+    text-align: center;
+}
+
+.like{
+    width: fit-content;
+    position: absolute;
+    right: 60px;
+    bottom: 20px;
+}

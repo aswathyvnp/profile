@@ -1,0 +1,25 @@
+
+
+table,td,th{
+	border-width:3px;
+	border-collapse:collapse;
+	border-color:#59c1bd;
+	background-color:#a0e4cb;
+	text-align:center;
+	border-style:solid;
+	font-size:18px;
+	font-family:sans-serif;
+	}
+table{
+	width:100%;
+	}
+tr{
+	height:45px;
+	}
+body{
+	background-color:#59c1bd;
+	
+	}
+h1,p{
+	font-family:candara;
+	}

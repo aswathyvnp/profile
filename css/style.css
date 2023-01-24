@@ -1,0 +1,371 @@
+/* Author: Aswathy */
+
+* {
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	line-height: 1.7;
+}
+
+.container {
+	margin: 30px 50px;
+	background-color: rgba(240, 239, 239, 0.815);
+	border-top: solid 3px tomato;
+}
+
+.overall {
+	padding-top: 30px;
+	padding-left: 135px;
+	padding-right: 135px;
+}
+
+.profile_pic {
+	width: 140px;
+}
+
+.desig {
+	color: tomato;
+}
+
+.brief_profile {
+	font-size: 12px;
+	color: slategray;
+}
+
+.profile_detail {
+	padding-left: 60px;
+}
+
+.other_details {
+	display: flex;
+	justify-content: space-between;
+}
+
+.other_details p {
+	font-size: xx-small;
+}
+
+.name {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.icon_container {
+	padding-left: 258px;
+	display: flex;
+	justify-content: flex-start;
+	gap: 5px;
+}
+
+.icon {
+	width: 13px;
+	height: 13px;
+	padding: 5px;
+	border: solid 2px rgba(166, 178, 190, 0.719);
+}
+
+.strng {
+	font-size: small;
+	font-weight: bold;
+}
+
+.small {
+	font-size: x-small;
+	color: slategray;
+}
+
+.container_activity {
+	display: flex;
+	justify-content: space-between;
+	flex-grow: 1;
+	padding-left: 60px;
+	gap: 50px;
+}
+.act_clm_1,
+.act_clm_2 {
+	display: flex;
+	justify-content: space-between;
+	width: 50%;
+}
+
+.act_item {
+	width: 50%;
+}
+
+.speciality {
+	display: flex;
+	justify-content: space-between;
+	gap: 50px;
+	padding-left: 63px;
+}
+
+.sp1,
+.sp2,
+.sp3,
+.sp4 {
+	padding-bottom: 20px;
+	height: 80px;
+}
+
+.contain_skill {
+	display: flex;
+	justify-content: space-between;
+	flex-grow: 1;
+	padding-left: 63px;
+	gap: 50px;
+}
+
+.skill_container {
+	width: 50%;
+}
+
+.clm1,
+.clm2 {
+	width: 50%;
+}
+
+.main_edu {
+	display: flex;
+	justify-content: flex-start;
+	margin: 40px 0;
+}
+
+.edu_detail {
+	padding-left: 63px;
+}
+
+.pg,
+.degree,
+.plus2 {
+	padding-bottom: 30px;
+}
+
+.head {
+	text-align: right;
+	min-width: 150px;
+	max-width: 150px;
+}
+
+.black {
+	background-color: black;
+	color: white;
+	width: fit-content;
+	position: absolute;
+	right: -21px;
+	bottom: 5px;
+	font-size: smaller;
+	padding: 2px;
+	border-radius: 4px;
+}
+
+.html,
+.editing {
+	text-align: right;
+	border-bottom: solid 2px tomato;
+	width: 100%;
+	margin-bottom: 20px;
+	padding-top: 5px;
+	position: relative;
+}
+
+.css,
+.photoshop {
+	text-align: right;
+	border-bottom: solid 2px tomato;
+	width: 60%;
+	margin-bottom: 20px;
+	padding-top: 5px;
+	position: relative;
+}
+
+.code_head {
+	margin-bottom: 25px;
+}
+
+.red {
+	color: tomato;
+}
+
+.skill_1,
+.skill_2 {
+	width: 95%;
+}
+
+.pg div,
+.degree div,
+.plus2 div {
+	margin-bottom: 10px;
+}
+
+.port {
+	width: 210px;
+	padding-bottom: 20px;
+}
+
+.port:hover {
+	float: top;
+	display: flex;
+	flex-wrap: wrap;
+	width: 358px;
+}
+
+.main_form {
+	display: flex;
+	justify-content: space-between;
+	padding: 40px 0;
+}
+.form_1 {
+	display: flex;
+	padding-left: 60px;
+	flex-grow: 1;
+}
+
+.input_width {
+	background-color: rgba(224, 221, 221, 0.815);
+	border: none;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+.textarea {
+	background-color: rgba(224, 221, 221, 0.815);
+	border: none;
+	padding: 10px;
+	margin-bottom: 10px;
+	width: 97%;
+}
+.submit {
+	padding: 15px;
+	border: none;
+	color: white;
+	text-transform: uppercase;
+	font-size: 11px;
+	background-color: orangered;
+	margin-bottom: 20px;
+}
+
+.form_head {
+	margin-bottom: 20px;
+	font-weight: bolder;
+	font-size: smaller;
+}
+.end {
+	padding-right: 130px;
+	padding-bottom: 170px;
+	margin-top: 40px;
+	text-align: right;
+}
+.orange {
+	color: orangered;
+}
+
+h6 {
+	margin-bottom: 10px;
+}
+
+.footer_cpyrit {
+	text-align: center;
+	padding: 20px;
+}
+
+/* project 1 */
+
+.center {
+	text-align: center;
+}
+
+.medium {
+	font-size: medium;
+	color: slategray;
+	text-align: justify;
+}
+
+.img1 {
+	width: 250px;
+	border: solid 1px;
+	margin-bottom: 30px;
+}
+
+.main {
+	display: flex;
+	justify-content: space-between;
+	margin: 45px 0;
+}
+
+.img1:hover {
+	width: 350px;
+	float: top;
+}
+
+.wiki {
+	padding: 10px 50px;
+}
+
+.head {
+	text-align: right;
+	min-width: 150px;
+	max-width: 150px;
+}
+
+.details {
+	display: flex;
+	justify-content: space-between;
+	flex-grow: 1;
+	gap: 5px;
+	padding-left: 60px;
+}
+
+.margintop {
+	margin-top: 60px;
+}
+
+.clm_1,
+.clm_2 {
+	width: 50%;
+}
+
+.details {
+	display: flex;
+	justify-content: space-between;
+	flex-grow: 1;
+	padding-left: 63px;
+	margin-bottom: 40px;
+	gap: 50px;
+}
+
+.main_sp {
+	display: flex;
+	justify-content: space-between;
+	gap: 50px;
+}
+
+.overall_sp {
+	margin: 120px;
+}
+.spty1 {
+	width: 320px;
+}
+
+.hry_ptr {
+	width: 300px;
+}
+
+.spty1:hover {
+	width: 470px;
+}
+
+.justify {
+	text-align: justify;
+}
+.right {
+	text-align: right;
+}
+
+.pic_sptfy {
+	display: flex;
+	justify-content: flex-end;
+	gap: 85px;
+	margin-top: 52px;
+}
+
+.red_sptfy {
+	color: rgb(177, 2, 2);
+}
